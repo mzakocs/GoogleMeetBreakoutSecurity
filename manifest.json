@@ -1,0 +1,14 @@
+{
+    "name": "Google Meet Breakout Security",
+    "description": "A small extension to showcase a security vulnerability in the Google Meet breakout rooms feature.",
+    "version": "1.0",
+    "minimum_chrome_version": "10.0",
+    "devtools_page": "devtools.html",
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "manifest_version": 2
+  }
