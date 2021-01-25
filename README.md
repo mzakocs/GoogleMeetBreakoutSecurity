@@ -12,7 +12,7 @@ This vulnerability was discovered after a basic foray into how the Google Meet b
 
 ## Meta
 
-Mitch Zakocs – mitchell.zakocs@pridetronics.com
+Mitch Zakocs – mzakocs@gmail.com
 
 [https://github.com/mzakocs/](https://github.com/mzakocs/)
 
