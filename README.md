@@ -5,7 +5,7 @@
 This project is purely for educational and research purposes. Do not use this code maliciously.
 
 ## Introduction
-This vulnerability was discovered after a basic foray into how the Google Meet breakout room system works. The breakout rooms feature has almost no security implementations, and any that are in place are extremely easy to bypass. It can be assumed that Google hastily developed this feature to compete with Zoom for virtual learning. Still, the lack of permissions and necessary checks is borderline negligible from a security perspective. This vulnerability will be submitted to the Google Vulnerability Reward Program and hopefully fixed immediately.
+This vulnerability was discovered after a basic foray into how the Google Meet breakout room system works. The breakout rooms feature has almost no security implementations, and any that are in place are extremely easy to bypass. It can be assumed that Google hastily developed this feature to compete with Zoom for virtual learning. Still, the lack of permissions and necessary checks is borderline negligible from a security perspective. This vulnerability has been submitted to the Google Vulnerability Reward Program and will hopefully be fixed immediately.
 
 ## Images
 ![Screenshot](images/screenshot.png)
