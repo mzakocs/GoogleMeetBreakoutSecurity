@@ -1,5 +1,5 @@
 # Google Meet Breakout Security
- > A small Chrome extension to showcase a security vulnerability in the Google Meet breakout rooms feature.
+ > A small Chrome extension to showcase a security vulnerability in Google Meet breakout rooms.
 
 ## Disclaimer
 This project is purely for educational and research purposes. Do not use this code maliciously.
