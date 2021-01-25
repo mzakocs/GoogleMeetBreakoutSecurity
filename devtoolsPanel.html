@@ -7,7 +7,7 @@
     <style>
         .container {
             width: 100%;
-            margin: 10px 10px;
+            margin: 10px 0px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -29,7 +29,12 @@
             line-height: 40px;
         }
 
+        p {
+            text-align: center;
+        }
+
         @media (prefers-color-scheme: dark) {
+
             p,
             h1 {
                 color: white;
@@ -41,10 +46,23 @@
 <body>
     <div class="container">
         <h1>Google Meet Breakouts</h1>
+        <p>Step 1: Wait for the "Join a breakout room" prompt to appear.</p>
+        <p>Step 2: Open DevTools and then this panel. Don't open it before the prompt appears.</p>
+        <p>Step 3: Press the "Join" button to join the breakout room.</p>
+        <p>Step 4: Once in your assigned breakout room, press the refresh button below.</p>
         <button id="refreshBreakoutRooms"><i class="fa fa-refresh"></i></button>
+        <p>Step 5: All breakout rooms should be listed below. Click on any to join.</p>
     </div>
     <div id="roomDiv" class="container">
-        <p>Press Refresh After Joining Meeting to Show Breakout Rooms!</p>
+        <!-- Breakout Room Buttons Get Put Here by devtoolsPanel.js -->
+    </div>
+    <div class="container">
+        <p>Step 6: After selecting a breakout room, fully join it and wait for the "Join breakout room" prompt to come up.
+            This appears because you are not in your correct breakout room. To get rid of this popup, simply press the
+            button below.</p>
+        <button id="modalRemoval">Remove Join Prompt</button>
+        <p>Step 7: Done. You are now in a breakout room you are not supposed to be in. To join a different breakout
+            room, begin again at Step 5.</p>
     </div>
     <script src="devtoolsPanel.js"></script>
 </body>
