@@ -4,6 +4,5 @@ chrome.devtools.panels.create("Google Meet Breakouts",
     "devtoolsPanel.html",
     (panel) => {
       /* Code Runs on Panel Creation */
-      
     }
 );
