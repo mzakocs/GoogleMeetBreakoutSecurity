@@ -1,1 +1,52 @@
-<button id="findBreakoutRooms"></button>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- https://fontawesome.com/v4.7.0/cheatsheet/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        .container {
+            width: 100%;
+            margin: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        i {
+            color: black;
+            margin: auto;
+        }
+
+        button {
+            width: 70%;
+            height: 30px;
+        }
+
+        h1 {
+            border-bottom: 2px solid currentColor;
+            line-height: 40px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            p,
+            h1 {
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Google Meet Breakouts</h1>
+        <button id="refreshBreakoutRooms"><i class="fa fa-refresh"></i></button>
+    </div>
+    <div id="roomDiv" class="container">
+        <p>Press Refresh After Joining Meeting to Show Breakout Rooms!</p>
+    </div>
+    <script src="devtoolsPanel.js"></script>
+</body>
+
+</html>
